@@ -1,39 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-
-header, footer {
-    padding: 1em;
-    color: red;
-    background-color: white;
-    clear: left;
-    text-align: center;
-}
-
-article {
-    margin-left: 170px;
-    padding: 1em;
-    overflow: hidden;
-}
-</style>
-</head>
-<body>
-
-<div class="container">
-
-<header>
-   <h1> Welcome to the Alpha Blog </h1>
-</header>
-  
-<article>
-    <%= link_to "Alpha Blog", articles_path %> | <%= link_to 'About', about_path %>
-</article>
-
-<footer>    
-</footer>
-
+<div class="center jumbotron">
+  <h1>ALPHA BLOG</h1>
+   <%= link_to "Sign up now", "#", class: "btn btn-danger btn-lg btn-xlarge" %>
 </div>
-
-</body>
-</html>
